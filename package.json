@@ -1,0 +1,22 @@
+{
+  "name": "futbol-acik-arttirma-mobil",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Açık Artırma Ligi — Android native kabuk (Capacitor). Canlı siteyi (Vercel) doğrudan WebView içinde açar, ayrı bir kod kopyası taşımaz.",
+  "scripts": {
+    "sync": "cap sync android",
+    "open:android": "cap open android"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^7.1.0",
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.1.0",
+    "@capacitor/core": "^7.1.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.1.0",
+    "@capacitor/status-bar": "^7.0.0"
+  }
+}

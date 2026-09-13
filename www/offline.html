@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Bağlantı yok</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        padding: 40px 24px;
+        padding-top: calc(40px + env(safe-area-inset-top));
+        padding-bottom: calc(40px + env(safe-area-inset-bottom));
+        background: #071613;
+        color: #f2efe6;
+        font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+        text-align: center;
+        box-sizing: border-box;
+      }
+      .mark {
+        width: 56px;
+        height: 56px;
+        border-radius: 12px;
+        background: #071613;
+        border: 2px solid #c9974a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .mark::before {
+        content: '';
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        border: 3px solid #c9974a;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0;
+        font-weight: 700;
+      }
+      p {
+        margin: 0;
+        max-width: 320px;
+        font-size: 14.5px;
+        line-height: 1.5;
+        color: #a9b8b0;
+      }
+      button {
+        margin-top: 8px;
+        background: #c9974a;
+        color: #211505;
+        border: none;
+        font-weight: 700;
+        font-size: 15px;
+        padding: 13px 28px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mark" aria-hidden="true"></div>
+    <h1>Bağlantı yok</h1>
+    <p>
+      Açık Artırma Ligi çevrim içi bir oyundur, oynamak için internet bağlantısı gerekir.
+      Bağlantını kontrol edip tekrar dene.
+    </p>
+    <button onclick="location.reload()">Tekrar dene</button>
+  </body>
+</html>

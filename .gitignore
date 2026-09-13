@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+
+# Android — build çıktıları ve makineye özel dosyalar
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+android/captures/
+android/*/build/
+android/.idea/
+*.hprof

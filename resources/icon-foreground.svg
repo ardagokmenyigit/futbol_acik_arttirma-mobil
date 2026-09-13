@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- adaptif ikon güvenli bölgesi ~yarıçap 330 (merkez 512,512) -->
+  <circle cx="512" cy="512" r="170" fill="none" stroke="#c9974a" stroke-width="30"/>
+  <line x1="512" y1="358" x2="512" y2="666" stroke="#c9974a" stroke-width="30"/>
+  <circle cx="512" cy="512" r="36" fill="#e3b978"/>
+</svg>

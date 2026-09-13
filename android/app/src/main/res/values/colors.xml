@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Web sitesiyle aynı palet (packages/client/src/styles.css :root) -->
+    <color name="colorPrimary">#0B211C</color>
+    <color name="colorPrimaryDark">#071613</color>
+    <color name="colorAccent">#C9974A</color>
+
+    <!-- @capacitor/assets splash arka planı için -->
+    <color name="splashBackground">#071613</color>
+</resources>

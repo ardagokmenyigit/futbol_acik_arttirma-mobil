@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Açık Artırma Ligi</string>
+    <string name="title_activity_main">Açık Artırma Ligi</string>
+    <string name="package_name">com.acikartirmaligi.app</string>
+    <string name="custom_url_scheme">com.acikartirmaligi.app</string>
+</resources>
